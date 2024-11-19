@@ -1,7 +1,11 @@
-$bg-color: #000;
+$bg-color: #303030;
 $text-color: #fff;
+$bg-color-header: rgba(39, 38, 36, 0.8);
+$accent-color: #FF7144;
 
 :root{ 
   --bg-color: #{$bg-color};
   --text-color: #{$text-color};
+  --bg-color-header: #{$bg-color-header};
+  --accent-color: #{$accent-color};
 }

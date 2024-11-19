@@ -1,9 +1,4 @@
-:root {
-  --bg-color: #303030;
-  --text-color: #fff;
-  --bg-color-header: rgba(39, 38, 36, 0.8);
-  --accent-color: #FF7144;
-}
+@import 'variables';
 
 *,
 *::after,
@@ -46,6 +41,7 @@ body {
 }
 
 /* common classes */
+
 .under-text {
   text-decoration-line: underline;
 }
@@ -59,6 +55,7 @@ body {
 }
 
 /* body */
+
 .page {
   background: var(--bg-color);
   color: #fff;
@@ -67,11 +64,13 @@ body {
 }
 
 /* header */
+
 .header {
   background-color: var(--bg-color-header);
   min-block-size: 76px;
   padding-left: 10px;
   padding-right: 5px;
+  
   display: grid;
   grid-template-columns: 3fr 2fr 1fr 1fr;
   gap: 15px;
@@ -92,6 +91,7 @@ body {
 }
 
 /* main */
+
 .main {
   padding: 20px 10px 81px;
   font-family: Montserrat, sans-serif;
@@ -113,6 +113,7 @@ body {
   line-height: 17px;
   text-transform: uppercase;
   color: var(--accent-color);
+  
   display: flex;
   align-items: center;
 }
@@ -149,6 +150,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -165,12 +167,14 @@ body {
 
 .main__filter-price-roller {
   margin-top: 20px;
+  
   font-family: Montserrat-Medium, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: var(--accent-color);
+  
   display: flex;
   gap: 20px;
 }
@@ -188,9 +192,11 @@ body {
   font-size: 14px;
   line-height: 17px;
   padding: 10px;
+  
   width: 210px;
   height: 41px;
   border-radius: 4px;
+  
   background: url(../images/icon-next3-white.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
@@ -199,6 +205,7 @@ body {
 
 .main__cards {
   margin-top: 30px;
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -241,6 +248,7 @@ body {
   line-height: 17px;
   text-align: center;
   text-transform: uppercase;
+  
   text-align: left;
   margin-top: 11px;
 }
@@ -259,6 +267,7 @@ body {
   border: 0;
   border-radius: 6px;
   padding: 6px 10px;
+  
   font-family: Montserrat-SemiBold, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -272,6 +281,7 @@ body {
   padding: 6px 10px;
   background: transparent;
   border: 0;
+  
   background-image: url(../images/icon-shopping-cart.svg);
 }
 
@@ -304,6 +314,7 @@ body {
 }
 
 /* footer */
+
 .footer {
   padding: 15px 13px 16px 10px;
 }
@@ -321,12 +332,14 @@ body {
   width: 139px;
   height: 35px;
   background-color: var(--accent-color);
+  
   font-family: Montserrat-SemiBold, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
+  
   border-radius: 6px;
   border: 0;
 }
@@ -360,5 +373,3 @@ body {
   line-height: 12px;
   color: #8F8E8E;
 }
-
-/*# sourceMappingURL=style.css.map */
